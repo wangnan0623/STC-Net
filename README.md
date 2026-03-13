@@ -17,5 +17,6 @@ This code is based on Python 3.8 and PyTorch 2.0
 
 We recommend using conda to build the environment:
 
-`conda create -n STC_Net python=3.8`
-`conda activate STC_Net`
+`conda create -n STC_Net python=3.8
+
+conda activate STC_Net`
