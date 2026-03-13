@@ -39,6 +39,25 @@ We evaluate STC-Net on two dataset: [FE108](https://zhangjiqing.com/dataset/) an
    ```
 2. For the VisEvent dataset, we  remove sequences that miss event data or have misaligned timestamps, leaving 268 sequences for training and 176 for testing.
    ```Python
-    convert_bmp_to_jpg.py
     accumulate_events_VisEvent.py
    ```
+    To maintain consistent RGB image input format, we convert the VisEvent dataset images from BMP to JPG: 
+    ```Python
+    convert_bmp_to_jpg.py
+   ```
+##  Training
+
+1. `cd ltr` and change `--workspace_dir` and `--data_dir` in ./admin/local.py. 
+
+2. Run ``` python run_training.py  afnet afnet ``` to train our AFNet. 
+
+##  Evaluation
+
+1. `cd pytracking`
+
+2. Change your local path in ./evaluation/local.py
+
+3. run ``` python run_tracker.py dimp afnet --dataset eotb --sequence val --epochname your_checkpoint.pth.tar ``` the predicted bounding boxes are be saved in ./tracking_result.  
+    - The predicted  bounding box format:  An N×4 matrix with each line representing object location [xmin, ymin, width, height] in one event frame.
+##  Acknowledgments
+* Thanks for the great [visionml/pytracking](https://github.com/visionml/pytracking)  module.
