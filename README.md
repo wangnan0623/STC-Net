@@ -12,3 +12,10 @@ Object tracking in challenging conditions, such as high-speed motion and extreme
 For help or issues using this git, please submit a GitHub issue.
 
 For other communications related to this git, please contact 3120240652@bit.edu.cn and yongsong@bit.edu.cn.
+## Installation
+This code is based on Python 3.8 and PyTorch 2.0
+
+We recommend using conda to build the environment:
+
+`conda create -n STC_Net python=3.8`
+`conda activate STC_Net`
