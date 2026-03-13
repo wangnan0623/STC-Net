@@ -16,17 +16,17 @@ For other communications related to this git, please contact 3120240652@bit.edu.
 This code is based on Python 3.8 and PyTorch 2.0
 
 1. We recommend using conda to build the environment:
-  ```
-  conda create -n STC_Net python=3.8
+    ```
+    conda create -n STC_Net python=3.8
   
-  conda activate STC_Net
+    conda activate STC_Net
   
-  conda install pytorch==2.0.0 torchvision==0.15.0 torchaudio==2.0.0 pytorch-cuda=11.8 -c pytorch -c nvidia
-  ```
+    conda install pytorch==2.0.0 torchvision==0.15.0 torchaudio==2.0.0 pytorch-cuda=11.8 -c pytorch -c nvidia
+    ```
 2. Install the dependent packages:
-  ```
-  pip install -r requirements.txt
-  ```
+    ```
+    pip install -r requirements.txt
+    ```
 3. Install deformable convolution according to [EDVR](https://github.com/xinntao/EDVR):
     ```
     python setup.py develop
