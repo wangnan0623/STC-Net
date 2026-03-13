@@ -49,7 +49,7 @@ We evaluate STC-Net on two dataset: [FE108](https://zhangjiqing.com/dataset/) an
 
 1. `cd ltr` and change `--workspace_dir` and `--data_dir` in ./admin/local.py. 
 
-2. Run ``` python run_training.py  ahnet ahnet ``` to train our STCNet. 
+2. Run ``` python run_training.py  ahnet ahnet ``` to train our STC-Net. 
 
 ##  Evaluation
 
