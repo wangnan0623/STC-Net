@@ -31,3 +31,7 @@ This code is based on Python 3.8 and PyTorch 2.0
     ```
     python setup.py develop
     ```
+## Preparing Dataset
+We evaluate STC-Net on two dataset: [FE108](https://zhangjiqing.com/dataset/) and [VisEvent](https://github.com/wangxiao5791509/VisEvent_SOT_Benchmark). 
+1. For the FE108 dataset, we accumulate events using this .
+2. For the VisEvent dataset, we  remove sequences that miss event data or have misaligned timestamps, leaving 268 sequences for training and 176 for testing, and accumulate events using this file.
