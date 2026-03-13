@@ -49,7 +49,7 @@ We evaluate STC-Net on two dataset: [FE108](https://zhangjiqing.com/dataset/) an
 
 1. `cd ltr` and change `--workspace_dir` and `--data_dir` in ./admin/local.py. 
 
-2. Run ``` python run_training.py  afnet afnet ``` to train our AFNet. 
+2. Run ``` python run_training.py  ahnet ahnet ``` to train our STCNet. 
 
 ##  Evaluation
 
@@ -57,7 +57,7 @@ We evaluate STC-Net on two dataset: [FE108](https://zhangjiqing.com/dataset/) an
 
 2. Change your local path in ./evaluation/local.py
 
-3. run ``` python run_tracker.py dimp afnet --dataset eotb --sequence val --epochname your_checkpoint.pth.tar ``` the predicted bounding boxes are be saved in ./tracking_result.  
+3. run ``` python run_tracker.py aihd ahnet --dataset visevent --sequence val --epochname your_checkpoint.pth.tar ``` the predicted bounding boxes are be saved in ./tracking_result.  
     - The predicted  bounding box format:  An N×4 matrix with each line representing object location [xmin, ymin, width, height] in one event frame.
 ##  Acknowledgments
 * Thanks for the great [visionml/pytracking](https://github.com/visionml/pytracking)  module.
