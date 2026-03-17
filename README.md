@@ -1,5 +1,5 @@
 # Enhancing Object Tracking via Spatio-Temporal Collaboration in Frame-Event Networks
-Code for "Enhancing Object Tracking via Spatio-Temporal Collaboration in Frame-Event Networks"  (_**The Visual Computer**_). 
+Code for "Enhancing Object Tracking via Spatio-Temporal Collaboration in Frame-Event Networks". 
 
 **Authors**: Nan Wang, Yong Song*, Li Wang, Yingbo He, Shaoxing Wu, Ya Zhou, Teng Luo, Shuang Wang, Linjun Zeng
 
