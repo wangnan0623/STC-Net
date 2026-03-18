@@ -43,7 +43,7 @@ We evaluate STC-Net on two dataset: [FE108](https://zhangjiqing.com/dataset/) an
    ```
     To maintain consistent RGB image input format, we convert the VisEvent dataset images from BMP to JPG: 
     ```
-    pythonconvert_bmp_to_jpg.py
+    python convert_bmp_to_jpg.py
     ```
 ##  Training
 
